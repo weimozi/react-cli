@@ -1,0 +1,24 @@
+{
+  "name": "react-cli-ls",
+  "version": "1.0.0",
+  "description": "A simple CLI for scaffloding React.js projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "react": "bin/react",
+    "react-init": "bin/react-init"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "download-git-repo": "^1.0.2",
+    "fs": "0.0.2",
+    "inquirer": "^5.0.0",
+    "read-metadata": "^1.0.0",
+    "user-home": "^2.0.0"
+  }
+}
